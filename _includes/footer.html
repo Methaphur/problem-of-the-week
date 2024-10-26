@@ -1,0 +1,20 @@
+<footer>
+  <div style="display: flex; justify-content: flex-end; align-items: center;">
+    <img src="{{ '/assets/cc_logo.png' | relative_url }}" alt="Coding Club Logo" style="width: 100px; height: auto; margin-right: 10px;">
+    <div style="margin-left: auto;">
+      {{ site.title }}/{{ page.permalink_name | replace: "/", "" | replace: " ", "-" }} <br>
+      {% if site.github_username and site.github_username != "" %}  
+        <a href="https://github.com/{{site.github_username}}">@{{ site.github_username }}</a> 
+      {% endif %}
+      {% if site.email and site.email != "" %}  
+        <a href="mailto:{{site.email}}">{{ site.email }}</a> 
+      {% endif %}
+      {% if site.phone and site.phone != "" %}  
+        <a href="tel:{{site.phone}}">{{ site.phone }}</a> 
+      {% endif %}
+      {% if site.address and site.address != "" %}  
+        {{ site.address }} 
+      {% endif %}
+    </div>
+  </div>
+</footer>
