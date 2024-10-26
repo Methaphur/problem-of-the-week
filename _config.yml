@@ -1,0 +1,24 @@
+title: "Problem Of The Week"
+email : code@niser.ac.in
+github_username: sdgniser
+baseurl: "/problem-of-the-week"
+url: "https://github.com/sdgniser"
+address: "sdgniser.github.io"
+
+plugins:
+  - jemoji
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+sass:
+  style: compressed
+
+highlighter: rouge
+
+header_pages:
+  - index.md
+  - problems.md
+  - leaderboard.md
+
+# set the size of the text to 'large' or 'small', default is small
+font-size: medium
