@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toggle Button</title>
+    <style>
+        #toggleContent {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <button id="toggleButton">Show Content</button>
+    <div id="toggleContent">
+        <p>This is the content to be toggled.</p>
+    </div>
+
+    <script>
+        document.getElementById('toggleButton').addEventListener('click', function() {
+            var content = document.getElementById('toggleContent');
+            if (content.style.display === 'none') {
+                content.style.display = 'block';
+                this.textContent = 'Hide Content';
+            } else {
+                content.style.display = 'none';
+                this.textContent = 'Show Content';
+            }
+        });
+    </script>
+</body>
+</html>
