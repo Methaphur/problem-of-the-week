@@ -1,0 +1,95 @@
+<style>
+    #leaderboard {
+        margin: 20px 0;
+    }
+
+    #leaderboard-entries {
+        width: 50%;
+        border-collapse: collapse;
+    }
+
+    #leaderboard-entries th, #leaderboard-entries td {
+        padding: 6px;
+        text-align: left;
+    }
+</style>
+
+<div id="leaderboard">
+    <h2>Leaderboard - Top 5</h2>
+    <table id="leaderboard-entries">
+        <thead>
+            <tr>
+                <th>Rank</th>
+                <th>Name</th>
+                <th>Points</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+</div>
+
+*Last updated: <span id="last-updated">Loading...</span>*
+
+<script>
+    const csvUrl = "https://docs.google.com/spreadsheets/d/e/2PACX-1vSyFfWFI5gzNrIBZvPX0NFOewkAPA1k-q_vSzwSFMUwntPGrvUQp1l6eC-Ea_CDahWcxz2wzEfiE9PU/pub?output=csv";
+
+    function csvToArray(csv) {
+        return csv.trim().split("\n").slice(2).map(row => row.split(","));
+    }
+
+    function updateLeaderboard(data) {
+        const rows = csvToArray(data);
+        const verifiedEntries = rows.filter(row => row[4] === "yes");
+
+        const userScores = {};
+        verifiedEntries.forEach(row => {
+            const [timestamp, name, problemNumber] = row;
+            if (!userScores[name]) {
+                userScores[name] = new Set();
+            }
+            userScores[name].add(problemNumber);
+        });
+
+        const users = Object.keys(userScores).map(name => ({
+            name,
+            points: userScores[name].size * 10
+        }));
+
+        users.sort((a, b) => b.points - a.points);
+
+        const leaderboardTable = document.getElementById("leaderboard-entries").getElementsByTagName("tbody")[0];
+        leaderboardTable.innerHTML = "";
+
+        users.forEach((user, index) => {
+            const tableRow = document.createElement("tr");
+
+            const rankCell = document.createElement("td");
+            rankCell.textContent = index + 1;
+            tableRow.appendChild(rankCell);
+
+            const nameCell = document.createElement("td");
+            nameCell.textContent = user.name;
+            tableRow.appendChild(nameCell);
+
+            const pointsCell = document.createElement("td");
+            pointsCell.textContent = user.points;
+            tableRow.appendChild(pointsCell);
+
+            leaderboardTable.appendChild(tableRow);
+        });
+    }
+
+    function fetchAndUpdateLeaderboard() {
+        fetch(csvUrl)
+            .then(response => response.text())
+            .then(data => {
+                updateLeaderboard(data);
+                const rows = csvToArray(data);
+                const lastUpdated = rows[0][rows[0].length - 1];
+                document.getElementById("last-updated").textContent = lastUpdated;
+            })
+            .catch(error => console.error("Error loading leaderboard:", error));
+    }
+
+    fetchAndUpdateLeaderboard();
+</script>
