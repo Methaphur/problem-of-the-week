@@ -1,29 +1,44 @@
 ---
 layout: post
-permalink: /problems/problem1
+permalink:  problems/problem1
 permalink_name: /Problem 1
 title: Problem Of The Week 1
 ---
 
-# Objective
-Testing POTW website
+## Problem Statement: String Transformation (Edit Distance)
 
-## Checking Code Environment
-```python
-def fibon(n):
-    if n == 1:
-        return n
-    return fibon(n-1) + fibon(n-2)
+You are given two strings $s1$ and $s2$. Your task is to determine the **minimum number of operations** required to transform $s1$ into $s2$. You can use the following three operations:
+
+1. **Insert** a character into the string.
+2. **Delete** a character from the string.
+3. **Substitute** one character in the string with another character.
+
+Each operation has a cost of **1 unit**, and your goal is to achieve the transformation with the **minimum cost** possible.
+
+### Input
+
+- Two strings, $s1$ and $s2$, where:
+    - $1 <= len(s1), len(s2) <= 500$
+    - Both strings consist of only lowercase English letters.
+
+### Output
+
+- A single integer representing the minimum number of operations required to transform $s1$ into $s2$.
+
+
+#### Example
+
+```plaintext
+Input: s1 = "kitten", s2 = "sitting"
+Output: 3
+```
+**Explanation**
+```plaintext
+- kitten -> sitten (substitute 'k' with 's')
+- sitten -> sittin (substitute 'e' with 'i')
+- sittin -> sitting (insert 'g')
 ```
 
-## Checking Inline Math
+### Objective
 
-The Taylor series expansion of $$e^x$$  around $$ x = 0 $$ is given by:
-
-$$ e^x = \sum_{n=0}^{\infty} \frac{x^n}{n!} = 1 + \frac{x}{1!} + \frac{x^2}{2!} + \frac{x^3}{3!} + \cdots $$
-
-This series provides an infinite sum that converges to $$ e^x $$ for all real numbers $$ x \in \mathbb{R} $$
-
-
-
-Good luck and happy coding!
+Implement an efficient algorithm to calculate the minimum number of operations needed to convert $s1$ into $s2$ and return the cost.
