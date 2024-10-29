@@ -11,7 +11,7 @@ detail_image: assets/theme_logo.png
 Welcome to the **Coding Club NISER's  Problem of the Week (POTW)**! This is where you can dive into challenging puzzles, flex your problem-solving skills, and explore exciting ideas in **programming, computer science and mathematics**. Each week, we release a new problem tailored for curious minds eager to test their skills and learn something new.
 
 
-**Submit Your Solution**: Think you've solved it? [Submit your solution](mailto:code@niser.ac.in?subject=POTW%5B%3CNumber%3E%5D) by emailing us with the subject line "POTW[<Number>]" and see your name on the leaderboard.
+**Submit Your Solution**: Think you've solved it? [Submit your solution](https://docs.google.com/forms/d/e/1FAIpQLSefcxujcXFTQ9Z2u7__cf6RuFFzyJnMqSoRHTxFMM_v5pXrlA/viewform?usp=sf_link) and see your name on the leaderboard.
 
 **Earn Points**: Solve problems, earn points, and make your mark on the leaderboard.
 
@@ -19,10 +19,10 @@ Welcome to the **Coding Club NISER's  Problem of the Week (POTW)**! This is wher
 
 ## This Week's Challenge
 
-- [Problem 1 - 2023-01-01]({{ site.baseurl }}/problems/problem1)
+- [Problem 1 - 2024-11-01]({{ site.baseurl }}/problems/problem1)
 
 
 ## Beginner Python Challenges
-If you're a beginner, you can check out some beginner challenges at [Beginner Python Challenges]({{ site.baseurl }}/CS141/).
+If you're a beginner, you can check out some beginner challenges at [Beginner Python Challenges]({{ site.baseurl }}/CS141).
 
 Happy coding!
