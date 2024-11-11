@@ -19,7 +19,7 @@ Welcome to the **Coding Club NISER's  Problem of the Week (POTW)**! This is wher
 
 ## This Week's Challenge
 
-- [Problem 1 - 2024-11-01]({{ site.baseurl }}/problems/problem1)
+- [Problem 2 - 2024-11-11]({{ site.baseurl }}/problems/problem2)
 
 
 ## Beginner Python Challenges

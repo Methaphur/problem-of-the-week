@@ -2,10 +2,10 @@
 layout: post
 permalink:  problems/problem1
 permalink_name: /Problem 1
-title: Problem Of The Week 1
+title: Problem Of The Week 1 (Solved)
 ---
 
-## Problem Statement: String Transformation (Edit Distance)
+## Problem Statement: String Transformation
 
 You are given two strings $s1$ and $s2$. Your task is to determine the **minimum number of operations** required to transform $s1$ into $s2$. You can use the following three operations:
 
@@ -42,3 +42,12 @@ Output: 3
 ### Objective
 
 Implement an efficient algorithm to calculate the minimum number of operations needed to convert $s1$ into $s2$ and return the cost.
+
+### Submission
+Think you've cracked it? [Submit your solutions here](https://docs.google.com/forms/d/e/1FAIpQLSefcxujcXFTQ9Z2u7__cf6RuFFzyJnMqSoRHTxFMM_v5pXrlA/viewform?usp=sf_link) and wait a few days to get it verified.
+
+### Note 
+- This technique, often called **Edit Distance** or **Levenshtein Distance**, is of particular interest in **bioinformatics**. Biologists use similar methods to measure differences between DNA, RNA, or protein sequences, helping to identify evolutionary relationships, mutations, and functional similarities. Such comparisons play a critical role in areas like gene editing, where understanding and calculating minimal sequence transformations can guide precise modifications to genetic material.
+
+### Solution
+The solution to the problem can be found at [Solution 1]({{ site.baseurl }}/solutions/solution1).
