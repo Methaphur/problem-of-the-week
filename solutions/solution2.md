@@ -1,8 +1,8 @@
 ---
 layout : post
-permalink :  solutions/solution1
-permalink_name : /Solution 1
-title : Solution Of The Week 1
+permalink :  solutions/solution2
+permalink_name : /Solution 2
+title : Solution Of The Week 2
 ---
 
 Here is the problem statement for [Problem 2]({{ site.baseurl }}/problems/problem2)
