@@ -52,3 +52,6 @@ A single integer representing the sum of all part numbers adjacent to symbols.
 In this schematic:
 - Two numbers (114 and 58) are not part numbers as they are not adjacent to any symbols.
 - All other numbers adjacent to symbols contribute to the sum, resulting in a total of 4361.
+
+### Solution
+The solution to the problem can be found at [Solution 2]({{ site.baseurl }}/solutions/solution2).
