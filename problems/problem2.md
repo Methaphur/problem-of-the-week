@@ -17,7 +17,7 @@ Calculate the sum of all part numbers that are adjacent to any symbol. This tota
 
 ### Input
 
-The input can be downloaded from [here](https://sdgniser.github.io/problem-of-the-week/assets/files/problem2.txt).<br>
+The input can be downloaded from [here]({{ site.baseurl }}/assets/files/problem2.txt).<br>
 The input is a grid representing the engine schematic, where:
   - Each cell contains either a part number (a positive integer), a symbol (`*`, `#`, `+`, `$`, `@`), or a period (`.`).
   - Part numbers are considered integers adjacent to any symbol (directly or diagonally).
