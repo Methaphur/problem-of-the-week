@@ -2,7 +2,7 @@
 layout: post
 permalink: /CS141/challenge1
 permalink_name: Challenge 1
-title: CS141 Challenge 1
+title: Beginner Challenge 1
 ---
 
 ## Challenge Description
