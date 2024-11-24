@@ -2,7 +2,7 @@
 layout : post
 permalink :  solutions/solution1
 permalink_name : /Solution 1
-title : Solution Of The Week 1
+title : Solution Of Week 1
 ---
 
 Here's the problem statement [Problem 1]({{ site.baseurl }}/problems/problem1)
