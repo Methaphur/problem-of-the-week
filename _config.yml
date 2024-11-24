@@ -21,5 +21,9 @@ header_pages:
   - leaderboard.md
   - CS141.md
 
+collections:
+  problems:
+    output: true
+
 # set the size of the text to 'large' or 'small', default is small
 font-size: medium

@@ -1,7 +1,8 @@
 ---
 layout: post
 permalink:  problems/problem2
-permalink_name: /Problem 2
+permalink_name: Problem 2
+date: 2024-11-11
 title: Problem Of The Week 2 (Solved) 
 ---
 
