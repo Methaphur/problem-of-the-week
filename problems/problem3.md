@@ -2,7 +2,7 @@
 layout: post
 permalink: problems/problem3
 permalink_name: /Problem 3
-title: Problem Of The Week 3
+title: Problem Of The Week 3 (Solved)
 ---
 
 ## Problem Statement :  The NISER Campus Network
@@ -58,3 +58,6 @@ The total cost is `1 + 2 + 3 = 7`.
 
 
 Good Luck and Happy Coding
+
+### Solution
+The solution to the problem can be found at [Solution 3]({{ site.baseurl }}/solutions/solution3).
