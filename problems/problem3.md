@@ -44,7 +44,7 @@ Output a single integer: the minimum cost to connect all the buildings. If it's 
 
 ### Output
 ```
-7
+6
 ```
 
 
@@ -54,7 +54,8 @@ The optimal network connects the buildings as follows:
 - Use the cable between buildings `2` and `3` (cost `2`).
 - Use the cable between buildings `1` and `3` (cost `3`).
 
-The total cost is `1 + 2 + 3 = 7`.
+The total cost is `1 + 2 + 3 = 6`.
+
 
 
 Good Luck and Happy Coding
