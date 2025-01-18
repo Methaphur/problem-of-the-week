@@ -19,7 +19,11 @@ Welcome to the **Coding Club NISER's  Problem of the Week (POTW)**! This is wher
 
 ## This Week's Challenge
 
-- [Problem 3 - 2024-11-18]({{ site.baseurl }}/problems/problem3)
+{% assign last_problem = site.problems | last %}
+### [{{ last_problem.title }}]({{ site.baseurl }}{{ last_problem.url }})
+*Posted on {{ last_problem.date | date: "%B %d, %Y" }}*
+
+{{ last_problem.description }}
 
 
 ## Beginner Python Challenges
