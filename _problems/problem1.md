@@ -3,10 +3,10 @@ layout: post
 permalink:  problems/problem1
 permalink_name: Problem 1
 date: 2024-10-28
-title: Problem Of The Week 1 (Solved)
+title: String Transformation (Solved)
 ---
 
-## Problem Statement: String Transformation
+## Problem Of The Week 1 : String Transformation
 
 You are given two strings $s1$ and $s2$. Your task is to determine the **minimum number of operations** required to transform $s1$ into $s2$. You can use the following three operations:
 
