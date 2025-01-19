@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink:  problems/problem1
+permalink:  problems/problem5
 permalink_name: Problem 5
 date: 2025-01-17
 title: Bucket and Bucket 
