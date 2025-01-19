@@ -3,10 +3,10 @@ layout: post
 permalink:  problems/problem2
 permalink_name: Problem 2
 date: 2024-11-11
-title: Problem Of The Week 2 (Solved) 
+title: Engine Part Identification (Solved) 
 ---
 
-## Problem Statement: Engine Part Identification
+## Problem Of The Week 2 : Engine Part Identification
 
 You are a student at NISER working on an experimental research project involving a complex engine designed by engineers from IIT. This engine is critical for running a series of delicate chemical reactions, but as you begin testing, you realize that a crucial part might be missing. Unfortunately, the schematic of the engine is dense with part numbers and symbols, making it difficult to identify the missing piece.
 

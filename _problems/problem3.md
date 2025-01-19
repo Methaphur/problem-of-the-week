@@ -3,10 +3,10 @@ layout: post
 permalink: problems/problem3
 permalink_name: Problem 3
 date: 2024-11-18
-title: Problem Of The Week 3 (Solved)
+title: The NISER Campus Network (Solved)
 ---
 
-## Problem Statement :  The NISER Campus Network
+## Problem Of The Week 3 : The NISER Campus Network
 
 NISER is upgrading its campus network to provide seamless WiFi connectivity across all buildings. The goal is to connect `N` buildings in the campus with optical fiber cables. However, due to budget constraints, the total cost of the cables must be minimized.
 

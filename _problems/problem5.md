@@ -3,10 +3,10 @@ layout: post
 permalink:  problems/problem5
 permalink_name: Problem 5
 date: 2025-01-17
-title: Problem Of The Week 5 
+title: Bucket and Bucket 
 ---
 
-## Problem Statement: Bucket and Bucket
+## Problem of The Week 5: Bucket and Bucket
 
 You are tasked with determining the number of actions required to measure an exact number of liters using two buckets of different sizes. The solution must follow a series of rules and constraints, given below
 

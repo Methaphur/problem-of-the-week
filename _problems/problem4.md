@@ -3,10 +3,10 @@ layout: post
 permalink: problems/problem4
 permalink_name: Problem 4
 date: 2025-01-10
-title: Problem Of The Week 4
+title: Alien Dictionary
 ---
 
-## Problem Statement : Alien Dictionary
+## Problem Of The Week 4 : Alien Dictionary
 
 In an alien language, surprisingly, they also use English lowercase letters, but possibly in a different order. The order of the alphabet is unknown to you. You are given a list of words from the alien language, sorted lexicographically by the rules of this new language. Derive the order of letters in this language.
 
