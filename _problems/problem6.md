@@ -12,7 +12,7 @@ title: Beautiful String Pairs
 
 
 
-# Problem Of The Week 4: Beautiful String Pairs
+# Problem Of The Week 6: Beautiful String Pairs
 
 ## Problem Statement
 
